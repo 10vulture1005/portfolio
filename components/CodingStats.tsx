@@ -186,7 +186,7 @@ export default function CodingStats() {
                 </div>
                 
                 <div className="flex items-center gap-2 mb-8 border-b border-white/20 pb-2">
-                     <div className="w-8 h-8 bg-neo-green border-2 border-white flex items-center justify-center">
+                     <div className="w-8 h-8 bg-neo-cyan border-2 border-white flex items-center justify-center">
                         <i className="ri-code-s-slash-fill text-lg text-black"></i>
                     </div>
                     <h3 className="text-2xl font-black uppercase text-white">CODEFORCES</h3>
@@ -194,47 +194,47 @@ export default function CodingStats() {
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     <div className="lg:col-span-2">
-                        <h4 className="font-mono text-neo-green text-sm font-bold mb-4 uppercase tracking-widest">{`>>`} RATINGS_GRAPH.svg</h4>
-                        <div className="border-2 border-neo-green/30 bg-neo-black/60 p-4 h-64 relative group overflow-hidden hover:border-neo-green transition-colors shadow-[4px_4px_0_rgba(51,255,87,0.1)]">
+                        <h4 className="font-mono text-neo-cyan text-sm font-bold mb-4 uppercase tracking-widest">{`>>`} RATINGS_GRAPH.svg</h4>
+                        <div className="border-2 border-neo-cyan/30 bg-neo-black/60 p-4 h-64 relative group overflow-hidden hover:border-neo-cyan transition-colors shadow-[4px_4px_0_rgba(0,229,255,0.1)]">
                              <CodeforcesRatingGraph handle="Vaidik_Saxena" />
                         </div>
                     </div>
                     
                     <div className="lg:col-span-1 flex flex-col">
                         <div className="mb-8">
-                             <h4 className="font-mono text-neo-green text-sm font-bold mb-4 uppercase tracking-widest">{`>>`} STATS_MATRIX</h4>
-                             <div className="bg-neo-black border-2 border-neo-green/30 p-6 space-y-4">
+                             <h4 className="font-mono text-neo-cyan text-sm font-bold mb-4 uppercase tracking-widest">{`>>`} STATS_MATRIX</h4>
+                             <div className="bg-neo-black border-2 border-neo-cyan/30 p-6 space-y-4">
                                 <div className="flex justify-between items-end border-b border-white/10 pb-2">
                                     <span className="text-gray-400 font-mono text-xs">HANDLE</span>
                                     <span className="text-white font-black text-xl">Vaidik_Saxena</span>
                                 </div>
                                 <div className="flex justify-between items-end border-b border-white/10 pb-2">
                                     <span className="text-gray-400 font-mono text-xs">STATUS</span>
-                                    <span className="text-neo-green font-mono font-bold text-sm animate-pulse">ONLINE</span>
+                                    <span className="text-neo-cyan font-mono font-bold text-sm animate-pulse">ONLINE</span>
                                 </div>
                                 <div className="flex justify-between items-end">
                                     <span className="text-gray-400 font-mono text-xs">RANK</span>
-                                    <span className="text-neo-green font-black text-xl">Pupil</span>
+                                    <span className="text-neo-cyan font-black text-xl">Specialist</span>
                                 </div>
                              </div>
                         </div>
 
                         <div className="flex-1">
-                             <h4 className="font-mono text-neo-green text-sm font-bold mb-4 uppercase tracking-widest">{`>>`} ACTIVITY_LOG</h4>
-                              <div className="border-2 border-neo-green/30 bg-neo-black/60 p-4 relative group overflow-hidden hover:border-neo-green transition-colors shadow-[4px_4px_0_rgba(51,255,87,0.1)]">
+                             <h4 className="font-mono text-neo-cyan text-sm font-bold mb-4 uppercase tracking-widest">{`>>`} ACTIVITY_LOG</h4>
+                              <div className="border-2 border-neo-cyan/30 bg-neo-black/60 p-4 relative group overflow-hidden hover:border-neo-cyan transition-colors shadow-[4px_4px_0_rgba(0,229,255,0.1)]">
                                 <CodeforcesHeatmap handle="Vaidik_Saxena" />
                               </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="mt-8 flex items-center justify-between text-neo-green p-3 border-2 border-white/10 bg-neo-black font-mono text-[11px]">
+                <div className="mt-8 flex items-center justify-between text-neo-cyan p-3 border-2 border-white/10 bg-neo-black font-mono text-[11px]">
                     <div className="flex items-center gap-2">
                         <span className="text-white/30">$</span>
-                        <span className="text-neo-green">./cf-tool stats --all</span>
+                        <span className="text-neo-cyan">./cf-tool stats --all</span>
                         <span className="animate-pulse">_</span>
                     </div>
-                    <a href="https://codeforces.com/profile/Vaidik_Saxena" target="_blank" className="text-neo-green px-3 py-1 font-black uppercase border border-neo-green hover:bg-neo-green hover:text-black transition-all">
+                    <a href="https://codeforces.com/profile/Vaidik_Saxena" target="_blank" className="text-neo-cyan px-3 py-1 font-black uppercase border border-neo-cyan hover:bg-neo-cyan hover:text-black transition-all">
                         VIEW_PROFILE →
                     </a>
                 </div>

@@ -77,8 +77,8 @@ export default function CodeforcesRatingGraph({ handle }: { handle: string }) {
             {/* Gradient definition */}
             <defs>
                 <linearGradient id="line-gradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#33FF57" />
-                    <stop offset="100%" stopColor="#006d32" />
+                    <stop offset="0%" stopColor="#10A49B" />
+                    <stop offset="100%" stopColor="#074744" />
                 </linearGradient>
                 <filter id="glow">
                     <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
@@ -106,14 +106,14 @@ export default function CodeforcesRatingGraph({ handle }: { handle: string }) {
                     cx={getX(d.ratingUpdateTimeSeconds)} 
                     cy={getY(d.newRating)} 
                     r="3" 
-                    className="fill-white hover:fill-neo-green hover:r-6 transition-all duration-300 cursor-none"
+                    className="fill-white hover:fill-neo-cyan hover:r-6 transition-all duration-300 cursor-none"
                 >
                     <title>{`Contest: ${d.contestName}\nRating: ${d.newRating}\nRank: ${d.rank}`}</title>
                 </circle>
             ))}
         </svg>
         
-        <div className="absolute top-2 right-2 bg-black/80 px-2 py-1 border border-white/20 text-[10px] font-mono text-neo-green">
+        <div className="absolute top-2 right-2 bg-black/80 px-2 py-1 border border-white/20 text-[10px] font-mono text-neo-cyan">
             MAX RATING: {maxRatingVal}
         </div>
     </div>

@@ -69,10 +69,10 @@ export default function CodeforcesHeatmap({ handle }: { handle: string }) {
   // Neo-Brutalist Colors for Codeforces (using Green for Pupil/Neo theme)
     const getNeoColor = (count: number) => {
     if (count === 0) return 'fill-gray-900' 
-    if (count <= 1) return 'fill-neo-green/30'
-    if (count <= 3) return 'fill-neo-green/60'
-    if (count <= 5) return 'fill-neo-green/80'
-    return 'fill-neo-green'
+    if (count <= 1) return 'fill-neo-cyan/30'
+    if (count <= 3) return 'fill-neo-cyan/60'
+    if (count <= 5) return 'fill-neo-cyan/80'
+    return 'fill-neo-cyan'
   }
 
   return (
