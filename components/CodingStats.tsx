@@ -196,7 +196,7 @@ export default function CodingStats() {
                     <div className="lg:col-span-2">
                         <h4 className="font-mono text-neo-green text-sm font-bold mb-4 uppercase tracking-widest">{`>>`} RATINGS_GRAPH.svg</h4>
                         <div className="border-2 border-neo-green/30 bg-neo-black/60 p-4 h-64 relative group overflow-hidden hover:border-neo-green transition-colors shadow-[4px_4px_0_rgba(51,255,87,0.1)]">
-                             <CodeforcesRatingGraph handle="vulture1005" />
+                             <CodeforcesRatingGraph handle="Vaidik_Saxena" />
                         </div>
                     </div>
                     
@@ -206,7 +206,7 @@ export default function CodingStats() {
                              <div className="bg-neo-black border-2 border-neo-green/30 p-6 space-y-4">
                                 <div className="flex justify-between items-end border-b border-white/10 pb-2">
                                     <span className="text-gray-400 font-mono text-xs">HANDLE</span>
-                                    <span className="text-white font-black text-xl">vulture1005</span>
+                                    <span className="text-white font-black text-xl">Vaidik_Saxena</span>
                                 </div>
                                 <div className="flex justify-between items-end border-b border-white/10 pb-2">
                                     <span className="text-gray-400 font-mono text-xs">STATUS</span>
@@ -234,7 +234,7 @@ export default function CodingStats() {
                         <span className="text-neo-green">./cf-tool stats --all</span>
                         <span className="animate-pulse">_</span>
                     </div>
-                    <a href="https://codeforces.com/profile/vulture1005" target="_blank" className="text-neo-green px-3 py-1 font-black uppercase border border-neo-green hover:bg-neo-green hover:text-black transition-all">
+                    <a href="https://codeforces.com/profile/Vaidik_Saxena" target="_blank" className="text-neo-green px-3 py-1 font-black uppercase border border-neo-green hover:bg-neo-green hover:text-black transition-all">
                         VIEW_PROFILE →
                     </a>
                 </div>
